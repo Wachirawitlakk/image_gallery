@@ -19,6 +19,9 @@ export default async function Gallery({ topic }: Props) {
 
     const photoWithBlur = await addBlurredDataUrls(images)
 
+
+
+
     return (
         <section className="px-1 my-3 grid grid-cols-gallery auto-rows-[10px]">
 
